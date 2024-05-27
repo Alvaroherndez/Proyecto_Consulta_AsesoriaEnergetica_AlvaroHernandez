@@ -1,8 +1,4 @@
 # Proyecto_Consulta_AsesoriaEnergetica_AlvaroHernandez
-Claro, aquí tienes un esbozo de un README.md basado en la información proporcionada:
-
----
-
 # Consulta de Contratos Energéticos
 
 Este proyecto consiste en una aplicación web diseñada para consultar información sobre contratos energéticos a través de una API/JSON. Permite realizar búsquedas diferenciadas por CIF, Nombre, Comercializadora o Estado, mostrando los resultados de manera clara y organizada en una tabla. Además, incluye un gráfico que representa el número de contratos por comercializadora.
