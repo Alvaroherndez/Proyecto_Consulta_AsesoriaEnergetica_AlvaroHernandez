@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuesta de Datos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container-tb">
+
+    <h1>Encuesta sobre el Uso de Redes Sociales entre Estudiantes de CampusFP</h1>
+    <p>¡Querida comunidad educativa de CampusFP en Humanes y Getafe!</p>
+    <p>
+        Con el objetivo de comprender mejor cómo interactuamos con las redes sociales en nuestro día a día, 
+        los alumnos de Lenguaje de Marcas de 1º de ASIR y 1º de DAM del centro Humanes - CampusFP han realizado 
+        una encuesta como parte del 2do Hito del 3er Trimestre.
+    </p>
+    <p>
+        Las redes sociales se han convertido en una parte integral de nuestras vidas, ofreciendo una plataforma 
+        para la conexión, la expresión y el intercambio de ideas. Sin embargo, como con cualquier herramienta poderosa, 
+        también vienen con sus propias ventajas y desventajas.
+    </p>
+  
+    <h2>Ventajas de las Redes Sociales:</h2>
+    <ul>
+        <li><strong>Conexión Global:</strong> Nos permiten conectarnos con personas de todo el mundo, ampliando nuestras perspectivas y facilitando la comunicación a larga distancia.</li>
+        <li><strong>Compartir Información:</strong> Facilitan el intercambio de noticias, eventos y conocimientos de manera rápida y eficiente.</li>
+        <li><strong>Oportunidades Profesionales:</strong> Muchas redes sociales sirven como plataformas para establecer contactos profesionales y buscar oportunidades laborales.</li>
+        <li><strong>Creatividad y Expresión:</strong> Brindan un espacio para la expresión creativa y la participación en comunidades afines.</li>
+    </ul>
+  
+    <h2>Desventajas de las Redes Sociales:</h2>
+    <ul>
+        <li><strong>Adicción y Pérdida de Tiempo:</strong> El uso excesivo puede llevar a la adicción y al desperdicio de tiempo, afectando negativamente nuestra productividad y bienestar.</li>
+        <li><strong>Privacidad y Seguridad:</strong> Exponen nuestra información personal a riesgos de privacidad y seguridad, como el robo de identidad y el acoso en línea.</li>
+        <li><strong>Comparación Social:</strong> Fomentan la comparación constante con los demás, lo que puede conducir a sentimientos de insuficiencia y ansiedad.</li>
+        <li><strong>Desinformación:</strong> Son plataformas propicias para la propagación de noticias falsas y desinformación, lo que puede afectar nuestra percepción de la realidad.</li>
+    </ul>
+  
+    <p>A continuación, encontrarás una tabla y varios gráficos que resumen los datos recopilados.</p>
+  
+    <h2>Preguntas de la Encuesta</h2>
+    <ul>
+        <li>Pregunta 1: ¿Con qué frecuencia utilizas las redes sociales?</li>
+        <li>Pregunta 2: ¿Cuántas horas al día dedicas a las redes sociales?</li>
+        <li>Pregunta 3: ¿Crees que las redes sociales afectan tu rendimiento académico?</li>
+        <li>Pregunta 4: ¿Consideras que las redes sociales influyen en tu autoestima?</li>
+        <li>Pregunta 5: ¿Estás preocupado/a por tu privacidad en las redes sociales?</li>
+    </ul><br>
+    <h1>Encuesta sobre el uso de las Redes Sociales</h1>
+      <table class="table" id="data-table">
+          <thead>
+          <tr>
+              <th>Centro</th>
+              <th>Grado</th>
+              <th>Sexo</th>
+              <th>Edad</th>
+              <th>Pregunta 1</th>
+              <th>Pregunta 2</th>
+              <th>Pregunta 3</th>
+              <th>Pregunta 4</th>
+              <th>Pregunta 5</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table><br>
+
+  <h2>Gráficos</h2>
+
+  <p>
+      Agradecemos sinceramente a todos los que participaron en esta encuesta. Vuestras respuestas nos ayudarán a comprender 
+      mejor cómo podemos utilizar las redes sociales de manera más consciente y beneficiosa en nuestra comunidad educativa.
+  </p>
+  <ul>
+    <li>Un gráfico de datos generales que muestra la visión global de todos los encuestados.</li>
+    <li>Gráficos divididos por centros, que comparan los resultados entre los estudiantes de Humanes y Getafe.</li>
+    <li>Gráficos por clase, diferenciando los datos entre las clases de 1º de ASIR y 1º de DAM.</li>
+    <li>Gráficos por sexo, analizando las diferencias en el uso de redes sociales entre los géneros.</li>
+</ul>
+
+</div>  
+
+  <div class="row">
+    <div class="container">
+        <h1>General</h1>
+        <div>
+        <canvas id="myChart1"></canvas>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Centros</h1>
+        <div>
+        <canvas id="myChart2"></canvas>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Clases</h1>
+        <div>
+        <canvas id="myChart3"></canvas>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Sexo</h1>
+        <div>
+        <canvas id="myChart4"></canvas>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 CampusFP. Álvaro Hernández. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
